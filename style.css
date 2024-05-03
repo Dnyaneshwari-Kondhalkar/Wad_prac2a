@@ -1,0 +1,146 @@
+.side-menu {
+    background-color: #343a40;
+    color: white;
+    height: 100vh;
+    padding-top: 20px;
+}
+
+.side-menu .brand-name {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.side-menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.side-menu ul li {
+    padding: 10px 20px;
+    border-bottom: 1px solid rgba(133, 81, 210, 0.1);
+}
+
+.header {
+    background-color: #007bff; /* Background color */
+    color: #ffffff; /* Text color */
+    padding: 20px; /* Padding */
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Align items horizontally */
+    align-items: center; /* Align items vertically */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow */
+}
+
+.college-name h1 {
+    font-size: 24px; /* Adjust font size */
+    margin: 0; /* Remove default margin */
+}
+
+.user .btn {
+    background-color: #ffffff; /* Button background color */
+    color: #007bff; /* Button text color */
+    padding: 10px 20px; /* Button padding */
+    border-radius: 5px; /* Button border radius */
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s ease; /* Add transition effect */
+}
+
+.user .btn:hover {
+    background-color: #f0f0f0; /* Button hover background color */
+}
+
+.img-case {
+    font-size: 24px; /* Adjust icon size */
+    margin-left: 20px; /* Add spacing between button and icon */
+}
+
+
+.content {
+    padding: 20px;
+}
+
+.cards {
+    display: flex; /* Use flexbox to display cards in a row */
+    flex-wrap: wrap; /* Allow cards to wrap to the next row if needed */
+    justify-content: space-between; /* Distribute cards evenly along the main axis */
+}
+.card {
+    flex: 0 0 calc(33.3333% - 20px); /* Set the width of each card */
+    background-color: #fff; /* Card background color */
+    border-radius: 10px; /* Rounded corners */
+    margin: 0 10px 20px; /* Margin */
+    padding: 20px; /* Padding */
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1); /* Box shadow */
+    
+        flex: 0 0 calc(33.3333% - 20px); /* Adjust width to fit three cards in a row */
+      
+        border-radius: 5px;
+        margin-bottom: 20px; /* Add some space between rows */
+        padding: 20px;
+      
+    
+}
+
+.icon-case {
+    font-size: 36px; /* Increase icon size */
+    color: #007bff; /* Icon color */
+}
+
+.card h1 {
+    font-size: 24px; /* Font size of the number */
+}
+
+.card h3 {
+    font-size: 18px; /* Font size of the label */
+}
+
+.activity, .new-student {
+    margin-top: 20px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.table th, .table td {
+    vertical-align: middle;
+}
+
+.btn {
+    color: #312d2d7e;
+}
+
+
+.header {
+    /* Header styles */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.user-btn {
+    margin-right: 10px; /* Adjust margin for spacing */
+}
+
+.img-case {
+    /* Styles for the user icon */
+    color: #007bff;
+    font-size: 28px; /* Increase icon size */
+    margin-right: 5px; /* Adjust margin for spacing */
+}
+
+.btn-primary {
+    /* Styles for the Add user button */
+    background-color: #007bff;
+    border: none;
+    padding: 16px 16px; /* Increase button padding */
+    font-size: 16px; /* Increase button font size */
+}
